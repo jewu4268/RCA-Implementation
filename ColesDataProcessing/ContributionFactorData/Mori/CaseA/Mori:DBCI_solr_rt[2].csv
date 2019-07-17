@@ -1,0 +1,7 @@
+node, cf
+db_rt[1],0.667
+odr_qt[1],0.5
+db_rt[2],0.4035
+odr_qt[2],0.3425
+solr_rt[2],0.375
+login_rt[1],0.112
