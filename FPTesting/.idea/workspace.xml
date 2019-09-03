@@ -32,8 +32,6 @@
               <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-                <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
               </folding>
             </state>
           </provider>
@@ -42,11 +40,10 @@
       <file leaf-file-name="BayesianNetwork.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BayesianNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="523" column="13" lean-forward="true" selection-start-line="523" selection-start-column="0" selection-end-line="524" selection-end-column="0" />
+            <state relative-caret-position="-136">
+              <caret line="105" column="39" lean-forward="true" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
                 <element signature="e#5747#5801#0" expanded="false" />
                 <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
                 <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -121,6 +118,7 @@
       <find>260</find>
       <find>Mori's DBC</find>
       <find>size of</find>
+      <find>explored</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,10 +172,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-125" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,9 +191,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,7 +369,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-130" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,7 +384,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39611053" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18956336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21916972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -437,8 +433,60 @@
           <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBCI.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+          <folding>
+            <element signature="e#724#739#0" expanded="false" />
+            <element signature="method#populateCPT#0;class#Node#0" expanded="false" />
+            <element signature="e#6958#6959#0" expanded="true" />
+            <element signature="e#7029#7030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BayesianNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="523" column="13" lean-forward="true" selection-start-line="523" selection-start-column="0" selection-end-line="524" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5747#5801#0" expanded="false" />
+            <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
+            <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
+            <element signature="method#CalculateWangHeuristic#0;class#BayesianNetwork#0" expanded="false" />
+            <element signature="method#CalculateMoriHeuristic#0;class#BayesianNetwork#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,7 +518,6 @@
           <caret line="565" column="46" lean-forward="false" selection-start-line="565" selection-start-column="46" selection-end-line="565" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -494,7 +541,6 @@
           <caret line="781" column="37" lean-forward="false" selection-start-line="781" selection-start-column="37" selection-end-line="781" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -531,8 +577,6 @@
           <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
           </folding>
         </state>
       </provider>
@@ -559,7 +603,6 @@
           <caret line="781" column="37" lean-forward="false" selection-start-line="781" selection-start-column="37" selection-end-line="781" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -588,8 +631,6 @@
           <caret line="102" column="58" lean-forward="true" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
           </folding>
         </state>
       </provider>
@@ -608,8 +649,6 @@
           <caret line="143" column="21" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
           </folding>
         </state>
       </provider>
@@ -634,7 +673,6 @@
           <caret line="186" column="56" lean-forward="true" selection-start-line="186" selection-start-column="56" selection-end-line="186" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -686,7 +724,6 @@
           <caret line="428" column="37" lean-forward="false" selection-start-line="428" selection-start-column="37" selection-end-line="428" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
@@ -702,8 +739,6 @@
           <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
           </folding>
         </state>
       </provider>
@@ -763,19 +798,16 @@
           <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#extractTimeSlice#0;class#Main#0" expanded="false" />
-            <marker date="1562665534176" expanded="true" signature="7009:7261" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BayesianNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="523" column="13" lean-forward="true" selection-start-line="523" selection-start-column="0" selection-end-line="524" selection-end-column="0" />
+        <state relative-caret-position="-136">
+          <caret line="105" column="39" lean-forward="true" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#ProposeFaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="e#5747#5801#0" expanded="false" />
             <element signature="method#MorifaultProp#0;class#BayesianNetwork#0" expanded="false" />
             <element signature="method#CalculateHeuristic#0;class#BayesianNetwork#0" expanded="false" />
